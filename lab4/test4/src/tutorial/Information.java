@@ -49,7 +49,7 @@ public class Information extends ActionSupport  implements RequestAware {
     		conn = DriverManager.getConnection("jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_mybook1","o3z305zz0j" ,"w1jl03w3jikh1ki4mijjm3i4ky4j25h0zhijjm01");
     		st = conn.createStatement();
     		st2 = conn.createStatement();
-    		System.out.println("测试连接2！"+id);
+    		System.out.println("B1"+id);
     		res1 = st.executeQuery("select * from book where ISBN ='" + id +"'");
     		while (res1.next()) {
     			int aid = res1.getInt("AuthorID");
@@ -73,7 +73,7 @@ public class Information extends ActionSupport  implements RequestAware {
     		map.put("ls", ls);
     		
     	} catch (Exception e) {
-    		System.out.print("连接错误！");
+    		System.out.print("脕卢陆脫麓铆脦贸拢隆");
     		e.printStackTrace();
     	}
     	return flag;
