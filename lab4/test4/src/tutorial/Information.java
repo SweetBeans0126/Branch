@@ -73,7 +73,7 @@ public class Information extends ActionSupport  implements RequestAware {
     		map.put("ls", ls);
     		
     	} catch (Exception e) {
-    		System.out.print("Á¬½Ó´íÎó£¡");
+    		System.out.print("C4íÎó£¡");
     		e.printStackTrace();
     	}
     	return flag;
