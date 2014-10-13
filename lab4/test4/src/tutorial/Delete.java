@@ -45,7 +45,7 @@ public class Delete extends ActionSupport{
     		System.out.println("end");
     		
     	} catch (Exception e) {
-    		System.out.print("连接错误3！");
+    		System.out.print("连接错no git3！");
     		e.printStackTrace();
     	}
     	return flag;

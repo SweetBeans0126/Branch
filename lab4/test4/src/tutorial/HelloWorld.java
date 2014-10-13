@@ -100,7 +100,7 @@ public class HelloWorld extends ActionSupport  implements RequestAware
     		map.put("ls", ls);
     		
     	} catch (Exception e) {
-    		System.out.print("连接错误5！");
+    		System.out.print("连接git 错误5！");
     		e.printStackTrace();
     	}
     	System.out.println("ls:"+ls.size());
