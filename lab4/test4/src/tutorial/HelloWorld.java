@@ -60,7 +60,7 @@ public class HelloWorld extends ActionSupport  implements RequestAware
     		st = conn.createStatement();
     		st2 = conn.createStatement();
     	}catch (Exception e) {
-    		System.out.print("连接错误3！");
+    		System.out.print("chnge C4");
     		e.printStackTrace();
     	} try{
     		System.out.println("测试连接1！"+Author);

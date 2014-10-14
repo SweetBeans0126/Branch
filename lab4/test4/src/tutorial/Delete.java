@@ -45,7 +45,8 @@ public class Delete extends ActionSupport{
     		System.out.println("end");
     		
     	} catch (Exception e) {
-    		System.out.print("Á¬½Ó´íno git3£¡");
+
+    		System.out.print("change C4£¡");
     		e.printStackTrace();
     	}
     	return flag;

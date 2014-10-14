@@ -6,6 +6,8 @@ public class data{
 	public int PublishDate, AuthorAge;
 	public void change()
 	{
+
 		int chanC4=0;
+
 	}
 }
